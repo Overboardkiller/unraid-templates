@@ -14,7 +14,7 @@
   <Category>MediaApp:Video MediaApp:Other Tools:</Category>
   <WebUI>http://[IP]:[PORT:5000]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/overboardkiller/unraid-templates/main/media-watchdog.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/overboardkiller/unraid-templates/main/icons/media-watchdog.svg</Icon>
+  <Icon>https://raw.githubusercontent.com/overboardkiller/unraid-templates/main/icons/media-watchdog.png</Icon>
   <ExtraParams>--restart unless-stopped</ExtraParams>
   <PostArgs/>
   <CPUset/>
