@@ -9,7 +9,8 @@
   <Privileged>false</Privileged>
   <Support>https://github.com/overboardkiller/media-watchdog/issues</Support>
   <Project>https://github.com/overboardkiller/media-watchdog</Project>
-  <Overview>Media Watchdog cross-references your Overseerr (Jellyseerr) requests with your Emby watch history so you can see what has and hasn't been watched, flag items for deletion, and manage your media library.</Overview>
+  <Overview>Cross-reference your Seerr requests with your Emby watch history. Users can flag unwanted movies and shows for removal. Admins can review flags and delete directly from Radarr and Sonarr, with watch history, TMDB scores, and per-season controls all in one place.</Overview>
+  <Description>Cross-reference your Seerr requests with your Emby watch history. Users can flag unwanted movies and shows for removal. Admins can review flags and delete directly from Radarr and Sonarr, with watch history, TMDB scores, and per-season controls all in one place.</Description>
   <Category>MediaApp:Video MediaApp:Other Tools:</Category>
   <WebUI>http://[IP]:[PORT:5000]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/overboardkiller/unraid-templates/main/media-watchdog.xml</TemplateURL>
@@ -20,7 +21,7 @@
   <DateInstalled/>
   <DonateText/>
   <DonateLink/>
-  <Requires>Emby Server, Overseerr or Jellyseerr</Requires>
+  <Requires>Emby Server, Seerr (Overseerr or Jellyseerr)</Requires>
 
   <Config Name="WebUI Port" Target="5000" Default="5000" Mode="tcp" Description="Port for the Media Watchdog web interface." Type="Port" Display="always" Required="true" Mask="false">5000</Config>
 
