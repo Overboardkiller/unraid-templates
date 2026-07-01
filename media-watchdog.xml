@@ -27,6 +27,6 @@
 
   <Config Name="Data Directory" Target="/data" Default="/mnt/user/appdata/media-watchdog/data" Mode="rw" Description="Persistent storage for Watchdog database and logs." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/media-watchdog/data</Config>
 
-  <Config Name="Emby AppData" Target="/emby-appdata" Default="/mnt/user/appdata/EmbyServer" Mode="ro" Description="Read-only path to your Emby Server appdata directory. Used to read watch history directly." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/EmbyServer</Config>
+  <Config Name="Emby AppData" Target="/emby-appdata" Default="" Mode="ro" Description="Read-only path to your Emby Server appdata directory. Used to read watch history directly. Default is usually /mnt/user/appdata/EmbyServer" Type="Path" Display="always" Required="true" Mask="false"></Config>
 
 </Container>
