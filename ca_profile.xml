@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <CommunityApplications>
   <Profile>Self-hosted Docker apps for Unraid. Currently featuring Media Watchdog — a tool to cross-reference Seerr requests with Emby watch history, allowing users to flag unwanted media and admins to delete directly from Radarr and Sonarr.</Profile>
   <Icon>https://raw.githubusercontent.com/overboardkiller/unraid-templates/main/icons/media-watchdog.svg</Icon>
